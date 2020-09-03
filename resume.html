@@ -13,31 +13,33 @@
         <img id="my_picture" src="Capture.JPG" alt="Picture of me" width="351" height="377">
       </header>
       
-      <h4 id="nav_header">Navigation</h4>
-      <nav>
-        <ol>
-          <li><a href="#education_head">Education</a></li>
-          <li><a href="#experience_head">Experience</a></li>
-          <li><a href="#tech_skills_head">Technical Skills</a></li>
-        </ol>
-      </nav>
+      <div id="nav_container" class="navigation">
+        <h4 id="nav_header" class="navigation">Navigation</h4>
+        <nav>
+          <ol id="nav_list" class="navigation">
+            <li><a href="#education_head">Education</a></li>
+            <li><a href="#experience_head">Experience</a></li>
+            <li><a href="#tech_skills_head">Technical Skills</a></li>
+          </ol>
+        </nav>
+      </div>
       
       <div id="education_container" class="education">
-        <h2><a id="education_head"></a>Education</h2>
+        <h2 id="education_head" class="education">Education</h2>
         
         <section id="VT" class="education">
-          <h4>Virginia Tech | College of Engineering, Blacksburg VA | Graduating May 2021</h4>
+          <h4 id="VT_head">Virginia Tech | College of Engineering, Blacksburg VA | Graduating May 2021</h4>
           Bachelor of Science in Computer Science with a Minor in Mathematics.
-          <ul>
+          <ul id="VT_description">
             <li>GPA: 3.61</li>
             <li>Japanese Culture Association</li>
           </ul>
         </section>  
         
         <section id="DRHS" class="education">
-          <h4>Deep Run High School | Center for Information Technology, Glen Allen VA | June 2017</h4>
-          Advanced math curriculum. Emphasis in Programming and Computer Science.	
-          <ul>
+          <h4 id="DRHS_head">Deep Run High School | Center for Information Technology, Glen Allen VA | June 2017</h4>
+          <p>Advanced math curriculum. Emphasis in Programming and Computer Science.</p>	
+          <ul id="DRHS_description">
             <li>GPA: 4.46 (3.82 unweighted)</li>
             <li>Class Rank: 23/381</li>
           </ul>
@@ -45,11 +47,11 @@
       </div>
       
       <div id="experience_container" class="experience">
-        <h2><a id="experience_head"></a>Experience</h2>
+        <h2 id="experience_head" class="experience">Experience</h2>
         
         <section id="continental" class="experience">
-          <h4>Internship (2 Year) | Continental Automotive Systems Inc, Auburn Hills MI | 2019 - Present</h4>
-          <ul>
+          <h4 id="continental_head">Internship (2 Year) | Continental Automotive Systems Inc, Auburn Hills MI | 2019 - Present</h4>
+          <ul id="continental_description">
             <li>Researched and built the sensor system for a 1/5th scale autonomous vehicle.</li>
             <li>Programmed vehicle in ROS. Implemented obstacle detection and avoidance.</li>
             <li>Worked during Junior and Senior year at Virginia Tech Transportation Institute facility. 
@@ -58,24 +60,24 @@
         </section>
         
         <section id="autodrive" class="experience">
-          <h4>Design Team | Virginia Tech AutoDrive | 2018 – 2019</h4>
-          <ul>
+          <h4 id="autodrive_head">Design Team | Virginia Tech AutoDrive | 2018 – 2019</h4>
+          <ul id="autodrive_description">
             <li>Development of a level 4 autonomous vehicle by 2020 as part of a national competition.</li>
             <li>Member of the Path Planning subteam working with ROS in C++/Python to develop local and global path planning algorithms for an autonomous vehicle.</li>
           </ul>
         </section>
         
         <section id="robotics" class="experience">
-          <h4>FIRST Robotics Team | Team 1086 Blue Cheese (Deep Run H.S.) | 2013 – 2017</h4>
-          <ul>
+          <h4 id="robotics_head">FIRST Robotics Team | Team 1086 Blue Cheese (Deep Run H.S.) | 2013 – 2017</h4>
+          <ul id="robotics_description">
             <li>Team Captain (2016-2017), Build Team, Pit Crew and Pit Set-Up Crew.</li>
             <li>Team qualified for and participated in 2014-2017 World Championships.  Team won 2016 World Championship.  </li>
           </ul>
         </section>
         
         <section id="hamilton_beach" class="experience">
-          <h4>Internship | Hamilton Beach Brands, Glen Allen VA | Summer 2016</h4>
-          <ul>
+          <h4 id="hamilton_beach_head">Internship | Hamilton Beach Brands, Glen Allen VA | Summer 2016</h4>
+          <ul id="hamilton_beach_description">
             <li>Assembled, disassembled, and ran life tests on small kitchen appliances.</li>
             <li>Developed website enabling engineers to send project requests to prototype developer.</li>
           </ul>
@@ -84,7 +86,7 @@
       
       <div id="tech_skills_container" class="tech_skills">
         <h2 id="tech_skills_head">Technical Skills</h2>
-        <ul>
+        <ul id="tech_skills_list">
           <li>Proficient in Java, C, C++ and ROS.</li>
           <li>Familiar with Python, Unity and Solidworks. </li>
           <li>Experience with IT Project Management and Computer Hardware.</li>
