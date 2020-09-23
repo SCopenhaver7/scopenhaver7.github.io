@@ -10,9 +10,6 @@
 
 body {
   padding-top: 3rem;
-}
-
-body {
   background-color: #ede0ff;
 }
 
@@ -20,11 +17,12 @@ body {
   position: static;
   left: 0;
   font-family: Georgia, serif;
+  width: 20ch;
 }
 
 .section_container {
   position: static;
-  left: 25%; 
+  left: 30px; 
   border: 1px solid black;
   border-top-style: hidden;
   border-right-style: hidden;
