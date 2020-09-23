@@ -28,3 +28,10 @@ body {
   border-right-style: hidden;
   border-left-style: hidden;
 }
+
+.nav_item {
+  position: static;
+  width: 33%;
+  height: 2em;
+  border: 1px solid black;
+}
