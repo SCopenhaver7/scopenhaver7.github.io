@@ -17,12 +17,13 @@ body {
 }
 
 .section_head {
+  position: static;
   left: 0;
   font-family: Georgia, serif;
-  font-size: 1em;
 }
 
 .section_container {
+  position: static;
   left: 25%; 
   border: 1px solid black;
   border-top-style: hidden;
