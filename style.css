@@ -9,9 +9,14 @@
 }
 
 body {
-  padding-top: 2rem;
+  padding-top: 3rem;
 }
 
 body {
   background-color: #ede0ff;
+}
+
+.experience {
+  width: 50%;
+  border: 1px solid;
 }
