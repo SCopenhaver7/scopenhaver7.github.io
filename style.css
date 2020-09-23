@@ -6,6 +6,10 @@
   font-family: Arial;
 }
 
+#contact-info {
+  top: 50;
+}
+
 body {
   background-color: #d9b5ff;
 }
