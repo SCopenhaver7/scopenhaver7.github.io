@@ -4,6 +4,8 @@
   left: 0;
   background-color: #c4d0ff;
   font-family: Georgia, serif;
+  border: 2px solid #adb6ff;
+  border-radius: 5px;
 }
 
 body {
@@ -11,5 +13,5 @@ body {
 }
 
 body {
-  background-color: #d9b5ff;
+  background-color: #ede0ff;
 }
