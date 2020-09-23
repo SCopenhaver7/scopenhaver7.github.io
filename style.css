@@ -24,4 +24,8 @@ body {
 
 .section_container {
   left: 25%; 
+  border: 1px solid black;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
 }
