@@ -1,44 +1,85 @@
+
+/* Using this tag for a fixed banner in the top right that will contain the title and navigation elements*/
 header {
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
+  width: 50%;
   background-color: #c4d0ff;
   font-family: Georgia, serif;
   border: 2px solid #adb6ff;
   border-radius: 5px;
+  text-align: center;
 }
 
+/* Setting a nice background color for the whole page */
 body {
-  padding-top: 5rem;
   background-color: #ede0ff;
 }
 
+/* Adjusting width so it will not be covered by banner when opening page on mobile */
+.contact_info {
+  width: 50%;
+}
+
+/* Adjusting width and height of my picture so it will resize when needed and separating it from below element */
+#my_picture {
+  width: 25%;
+  height: 25%;
+  padding-bottom: 30px;
+}
+
+/* Using this tag for section headers, should be left positioned with Georgia font */
 h2 {
   position: static;
   left: 0;
   font-family: Georgia, serif;
-  width: 20ch;
 }
 
+/* Using this for subsection headers and removing margins to condense text */
+h4 {
+  font-size: 1.1em;
+  margin-block-end: 0;
+}
+
+/* Using this for info below subsection headers and reducing margins to condense text */
+p {
+  margin-block-start: 0;
+  margin-block-end: 0.5em;
+}
+
+/* Reducing margins to condense text */
+ul {
+  margin-block-start: 0.5em;
+}
+
+/* Creating bottom border for section containers and adding left padding to separate from headers */
 .section_container {
   position: static;
-  left-padding: 100px; 
+  padding-left: 20%; 
   border: 1px solid black;
   border-top-style: hidden;
   border-right-style: hidden;
   border-left-style: hidden;
+  font-family: "Palatino Linotype";
+  font-size: 1em;
 }
 
+/* Creating nice looking navigation buttons for the fixed banner */
 .nav_item {
-  position: static;
-  width: 33%;
-  height: 2em;
   border: 1px solid black;
   border-radius: 5px;
   background-color: #d6faff;
+  text-decoration: none;
+  color: black;
+  padding: 10px 16px;
+  float: left;
 }
 
+/* Padding nav buttons to be centered and adjusting height */
 nav {
-  width: 100%;
   height: 3em;
+  padding-left: 27%;
 }
+
+
