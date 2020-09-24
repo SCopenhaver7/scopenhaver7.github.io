@@ -17,10 +17,13 @@ body {
   background-color: #ede0ff;
 }
 
-/* Adjusting width so it will not be covered by banner when opening page on mobile */
-.contact_info {
+/* Making contact info look nice and adjusting width so it will not be covered by banner when opening page on mobile */
+#contact_info {
   width: 50%;
+  font-size: 1.1em;
+  font-family: "Palatino Linotype";
 }
+
 
 /* Adjusting width and height of my picture so it will resize when needed and separating it from below element */
 #my_picture {
@@ -34,6 +37,7 @@ h2 {
   position: static;
   left: 0;
   font-family: Georgia, serif;
+  font-size: 1.5em;
 }
 
 /* Using this for subsection headers and removing margins to condense text */
@@ -81,5 +85,4 @@ nav {
   height: 3em;
   padding-left: 27%;
 }
-
 
